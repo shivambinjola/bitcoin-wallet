@@ -1,0 +1,58 @@
+.navbar {
+  background-color: white;
+  padding: 0px 40px;
+  //   position: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   font-size: 32px;
+  //   font-weight: 700;
+  //   color: #4c5968;
+  //   width: 100%;
+  //   z-index: 50;
+  //   height: 80px;
+  margin-top: 0;
+  filter: drop-shadow(0 59px 55.5px rgba(154, 155, 176, 0.17));
+}
+
+.bitcoin-wallet-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #4c5968;
+}
+
+.navicon {
+  color: #aeb8c4;
+  cursor: pointer;
+  font-size: 18px;
+}
+.popupouter {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+.popup {
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  justify-self: end;
+  z-index: 100;
+  width: 38vw;
+  margin-top: -16px;
+  filter: drop-shadow(0 59px 55.5px rgba(154, 155, 176, 0.17));
+}
+.divflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.remove {
+  color: #f00;
+}
